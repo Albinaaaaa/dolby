@@ -84,7 +84,7 @@ aside {
 html,
 body {
   font-family: Poppins;
-  color: black;
+  color: #fff;
   height: 100%;
   width: 100%;
   font-size: 10px;
@@ -139,6 +139,38 @@ h6 {
   font-weight: 400;
 }
 
+.info {
+  font-family: JosefinSans;
+}
+.info > *:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.sup-title {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 1.38;
+  letter-spacing: 0.1em;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8rem;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
 /* -------------------------- */
 .wrapper {
   min-height: 100%;
@@ -181,4 +213,91 @@ h6 {
 }
 .header__logo:hover {
   color: rgb(254, 219, 98);
+}
+
+.main__container {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .content {
+  flex: 0 0 50%;
+  padding: 120px 0;
+}
+.main .content__button {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.56;
+  position: relative;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 60px;
+  padding-right: 50px;
+}
+.main .content__button:hover {
+  text-decoration: underline;
+}
+.main .content__button::after {
+  content: "";
+  position: absolute;
+  width: 34px;
+  height: 16px;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background: url("../img/common/arrow.svg") center no-repeat;
+}
+.main .content .statistics {
+  display: flex;
+  gap: 45px;
+}
+.main .content .statistics__item {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.56;
+  color: rgba(255, 255, 255, 0.75);
+}
+.main__photo {
+  position: relative;
+  flex: 0 0 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 330px;
+  padding: 60px 10px;
+}
+.main__photo::before {
+  content: "";
+  position: absolute;
+  top: -30%;
+  right: -10%;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(158, 44, 44, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+  animation: changeSize 10s linear 0s infinite alternate forwards;
+}
+.main__photo::after {
+  content: "";
+  position: absolute;
+  right: -5%;
+  bottom: -5%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(15, 255, 140, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+  animation: changeSize 10s linear 0s infinite alternate forwards;
+}
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes changeSize {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.2);
+  }
 }

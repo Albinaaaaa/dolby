@@ -19,11 +19,34 @@
     </div>
 </header>
         <div class="page">
+            <section class="page__main main">
+    <div class="main__container">
+        <div class="main__content content info">
+            <div class="content__sup-title sup-title">Featured Film</div>
+            <h1 class="content__title title">ZERO CONTACT</h1>
+            <div class="content__text text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit gravida enim, orci morbi elementum gravida.</p>
+            </div>
+            <a href="#" class="content__button">Let’s get started</a>
+            <ul class="content__statistics statistics">
+                <li class="statistics__item"><span id="target-1">0</span> | Active user</li>
+                <li class="statistics__item"><span id="target-2">0</span> | Music Video</li>
+                <li class="statistics__item"><span id="target-3">0</span> | Visual Art</li>
+            </ul>
+        </div>
+        <div class="main__photo" id="container">
+            <model-viewer class="main__photo-model" src="../files/main/gear-machine.glb" alt="3D-модель" camera-controls auto-rotate style="width: 800px; height: 600px; --model-viewer-progress: 900000turn;" animation-name="spin"></model-viewer>
+            <!-- <model-viewer id="modelViewer" camera-controls auto-rotate></model-viewer> -->
+            <!-- <canvas id="canvas"></canvas> -->
+        </div>
+    </div>
+</section>
         </div>
         
     </div>
     
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
-    <script src="js/app.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@2.0.0/dist/model-viewer.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/countup.js@2.0.7/dist/countUp.min.js"></script> -->
+    <script type="module" src="js/app.min.js"></script>
 </body>
 </html>
