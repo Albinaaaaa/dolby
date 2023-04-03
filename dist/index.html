@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dolby</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.min.css">
     <!--
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -35,9 +36,299 @@
             </ul>
         </div>
         <div class="main__photo" id="container">
-            <model-viewer class="main__photo-model" src="../files/main/gear-machine.glb" alt="3D-модель" camera-controls auto-rotate style="width: 800px; height: 600px; --model-viewer-progress: 900000turn;" animation-name="spin"></model-viewer>
+            <model-viewer class="main__photo-model" src="img/main/gear-machine.glb" alt="3D-модель" camera-controls auto-rotate animation-name="spin"></model-viewer>
             <!-- <model-viewer id="modelViewer" camera-controls auto-rotate></model-viewer> -->
             <!-- <canvas id="canvas"></canvas> -->
+        </div>
+    </div>
+</section>
+            <section class="page__products products">
+    <div class="products__container">
+        <h2 class="products__title">Features Artworks</h2>
+        <div class="products__wrapper">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- If we need navigation buttons -->
+                <div class="products__swiper-buttons">
+                    <div class="products__button-prev">
+                        <svg width="14" height="21" viewBox="0 0 14 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.11031 10.5L13.2773 18.667L10.9444 21L0.444379 10.5L10.9444 -2.03954e-07L13.2773 2.33297L5.11031 10.5Z"
+                                fill="white" fill-opacity="0.75" />
+                        </svg>
+                    </div>
+                    <div class="products__button-next">
+                        <svg width="13" height="21" viewBox="0 0 13 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.16703 10.5L0 2.33297L2.33297 0L12.833 10.5L2.33297 21L0 18.667L8.16703 10.5Z" fill="white"
+                                fill-opacity="0.75" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="products__slide slide-products">
+                            <div class="slide-products__img">
+                                <img src="img/products/01.jpg" loading="lazy" class="product__img" alt="NFT" >
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            </div>
+                            <div class="slide-products__body">
+                                <h4 class="slide-products__title">Jenuine Ruddy Girl</h4>
+                                <div class="slide-products__text">
+                                    <p>Till Lindemann by NFT Frame Art</p>
+                                </div>
+                                <div class="slide-products__menu">
+                                    <div class="slide-products__text-price">Price</div>
+                                    <div class="slide-products__price">€25.00</div>
+                                    <div class="slide-products__like">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.001 1.52898C12.35 -0.58002 15.98 -0.51002 18.243 1.75698C20.505 4.02498 20.583 7.63698 18.479 9.99298L9.99901 18.485L1.52101 9.99298C-0.582994 7.63698 -0.503994 4.01898 1.75701 1.75698C4.02201 -0.50702 7.64501 -0.58302 10.001 1.52898ZM16.827 3.16998C15.327 1.66798 12.907 1.60698 11.337 3.01698L10.002 4.21498L8.66601 3.01798C7.09101 1.60598 4.67601 1.66798 3.17201 3.17198C1.68201 4.66198 1.60701 7.04698 2.98001 8.62298L10 15.654L17.02 8.62398C18.394 7.04698 18.319 4.66498 16.827 3.16998Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <a href="#" class="slide-products__button">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="products__slide slide-products">
+                            <div class="slide-products__img">
+                                <img src="img/products/02.jpg" loading="lazy" alt="NFT" class="product__img">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            </div>
+                            <div class="slide-products__body">
+                                <h4 class="slide-products__title">Jenuine Ruddy Girl</h4>
+                                <div class="slide-products__text">
+                                    <p>Till Lindemann by NFT Frame Art</p>
+                                </div>
+                                <div class="slide-products__menu">
+                                    <div class="slide-products__text-price">Price</div>
+                                    <div class="slide-products__price">€25.00</div>
+                                    <div class="slide-products__like">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.001 1.52898C12.35 -0.58002 15.98 -0.51002 18.243 1.75698C20.505 4.02498 20.583 7.63698 18.479 9.99298L9.99901 18.485L1.52101 9.99298C-0.582994 7.63698 -0.503994 4.01898 1.75701 1.75698C4.02201 -0.50702 7.64501 -0.58302 10.001 1.52898ZM16.827 3.16998C15.327 1.66798 12.907 1.60698 11.337 3.01698L10.002 4.21498L8.66601 3.01798C7.09101 1.60598 4.67601 1.66798 3.17201 3.17198C1.68201 4.66198 1.60701 7.04698 2.98001 8.62298L10 15.654L17.02 8.62398C18.394 7.04698 18.319 4.66498 16.827 3.16998Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <a href="#" class="slide-products__button">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="products__slide slide-products">
+                            <div class="slide-products__img">
+                                <img src="img/products/03.jpg" alt="NFT" loading="lazy" class="product__img">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            </div>
+                            <div class="slide-products__body">
+                                <h4 class="slide-products__title">Jenuine Ruddy Girl</h4>
+                                <div class="slide-products__text">
+                                    <p>Till Lindemann by NFT Frame Art</p>
+                                </div>
+                                <div class="slide-products__menu">
+                                    <div class="slide-products__text-price">Price</div>
+                                    <div class="slide-products__price">€25.00</div>
+                                    <div class="slide-products__like">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.001 1.52898C12.35 -0.58002 15.98 -0.51002 18.243 1.75698C20.505 4.02498 20.583 7.63698 18.479 9.99298L9.99901 18.485L1.52101 9.99298C-0.582994 7.63698 -0.503994 4.01898 1.75701 1.75698C4.02201 -0.50702 7.64501 -0.58302 10.001 1.52898ZM16.827 3.16998C15.327 1.66798 12.907 1.60698 11.337 3.01698L10.002 4.21498L8.66601 3.01798C7.09101 1.60598 4.67601 1.66798 3.17201 3.17198C1.68201 4.66198 1.60701 7.04698 2.98001 8.62298L10 15.654L17.02 8.62398C18.394 7.04698 18.319 4.66498 16.827 3.16998Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <a href="#" class="slide-products__button">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="products__slide slide-products">
+                            <div class="slide-products__img">
+                                <img src="img/products/04.jpg" alt="NFT" loading="lazy" class="product__img">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            </div>
+                            <div class="slide-products__body">
+                                <h4 class="slide-products__title">Jenuine Ruddy Girl</h4>
+                                <div class="slide-products__text">
+                                    <p>Till Lindemann by NFT Frame Art</p>
+                                </div>
+                                <div class="slide-products__menu">
+                                    <div class="slide-products__text-price">Price</div>
+                                    <div class="slide-products__price">€25.00</div>
+                                    <div class="slide-products__like">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.001 1.52898C12.35 -0.58002 15.98 -0.51002 18.243 1.75698C20.505 4.02498 20.583 7.63698 18.479 9.99298L9.99901 18.485L1.52101 9.99298C-0.582994 7.63698 -0.503994 4.01898 1.75701 1.75698C4.02201 -0.50702 7.64501 -0.58302 10.001 1.52898ZM16.827 3.16998C15.327 1.66798 12.907 1.60698 11.337 3.01698L10.002 4.21498L8.66601 3.01798C7.09101 1.60598 4.67601 1.66798 3.17201 3.17198C1.68201 4.66198 1.60701 7.04698 2.98001 8.62298L10 15.654L17.02 8.62398C18.394 7.04698 18.319 4.66498 16.827 3.16998Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <a href="#" class="slide-products__button">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="products__slide slide-products">
+                            <div class="slide-products__img">
+                                <img src="img/products/05.jpg" loading="lazy" alt="NFT" class="product__img">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            </div>
+                            <div class="slide-products__body">
+                                <h4 class="slide-products__title">Jenuine Ruddy Girl</h4>
+                                <div class="slide-products__text">
+                                    <p>Till Lindemann by NFT Frame Art</p>
+                                </div>
+                                <div class="slide-products__menu">
+                                    <div class="slide-products__text-price">Price</div>
+                                    <div class="slide-products__price">€25.00</div>
+                                    <div class="slide-products__like">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.001 1.52898C12.35 -0.58002 15.98 -0.51002 18.243 1.75698C20.505 4.02498 20.583 7.63698 18.479 9.99298L9.99901 18.485L1.52101 9.99298C-0.582994 7.63698 -0.503994 4.01898 1.75701 1.75698C4.02201 -0.50702 7.64501 -0.58302 10.001 1.52898ZM16.827 3.16998C15.327 1.66798 12.907 1.60698 11.337 3.01698L10.002 4.21498L8.66601 3.01798C7.09101 1.60598 4.67601 1.66798 3.17201 3.17198C1.68201 4.66198 1.60701 7.04698 2.98001 8.62298L10 15.654L17.02 8.62398C18.394 7.04698 18.319 4.66498 16.827 3.16998Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <a href="#" class="slide-products__button">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="products__slide slide-products">
+                            <div class="slide-products__img">
+                                <img src="img/products/03.jpg" loading="lazy" alt="NFT" class="product__img">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            </div>
+                            <div class="slide-products__body">
+                                <h4 class="slide-products__title">Jenuine Ruddy Girl</h4>
+                                <div class="slide-products__text">
+                                    <p>Till Lindemann by NFT Frame Art</p>
+                                </div>
+                                <div class="slide-products__menu">
+                                    <div class="slide-products__text-price">Price</div>
+                                    <div class="slide-products__price">€25.00</div>
+                                    <div class="slide-products__like">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.001 1.52898C12.35 -0.58002 15.98 -0.51002 18.243 1.75698C20.505 4.02498 20.583 7.63698 18.479 9.99298L9.99901 18.485L1.52101 9.99298C-0.582994 7.63698 -0.503994 4.01898 1.75701 1.75698C4.02201 -0.50702 7.64501 -0.58302 10.001 1.52898ZM16.827 3.16998C15.327 1.66798 12.907 1.60698 11.337 3.01698L10.002 4.21498L8.66601 3.01798C7.09101 1.60598 4.67601 1.66798 3.17201 3.17198C1.68201 4.66198 1.60701 7.04698 2.98001 8.62298L10 15.654L17.02 8.62398C18.394 7.04698 18.319 4.66498 16.827 3.16998Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <a href="#" class="slide-products__button">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="products__slide slide-products">
+                            <div class="slide-products__img">
+                                <img src="img/products/01.jpg" loading="lazy" alt="NFT" class="product__img">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            </div>
+                            <div class="slide-products__body">
+                                <h4 class="slide-products__title">Jenuine Ruddy Girl</h4>
+                                <div class="slide-products__text">
+                                    <p>Till Lindemann by NFT Frame Art</p>
+                                </div>
+                                <div class="slide-products__menu">
+                                    <div class="slide-products__text-price">Price</div>
+                                    <div class="slide-products__price">€25.00</div>
+                                    <div class="slide-products__like">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.001 1.52898C12.35 -0.58002 15.98 -0.51002 18.243 1.75698C20.505 4.02498 20.583 7.63698 18.479 9.99298L9.99901 18.485L1.52101 9.99298C-0.582994 7.63698 -0.503994 4.01898 1.75701 1.75698C4.02201 -0.50702 7.64501 -0.58302 10.001 1.52898ZM16.827 3.16998C15.327 1.66798 12.907 1.60698 11.337 3.01698L10.002 4.21498L8.66601 3.01798C7.09101 1.60598 4.67601 1.66798 3.17201 3.17198C1.68201 4.66198 1.60701 7.04698 2.98001 8.62298L10 15.654L17.02 8.62398C18.394 7.04698 18.319 4.66498 16.827 3.16998Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <a href="#" class="slide-products__button">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="products__slide slide-products">
+                            <div class="slide-products__img">
+                                <img src="img/products/02.jpg" loading="lazy" alt="NFT" class="product__img">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            </div>
+                            <div class="slide-products__body">
+                                <h4 class="slide-products__title">Jenuine Ruddy Girl</h4>
+                                <div class="slide-products__text">
+                                    <p>Till Lindemann by NFT Frame Art</p>
+                                </div>
+                                <div class="slide-products__menu">
+                                    <div class="slide-products__text-price">Price</div>
+                                    <div class="slide-products__price">€25.00</div>
+                                    <div class="slide-products__like">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.001 1.52898C12.35 -0.58002 15.98 -0.51002 18.243 1.75698C20.505 4.02498 20.583 7.63698 18.479 9.99298L9.99901 18.485L1.52101 9.99298C-0.582994 7.63698 -0.503994 4.01898 1.75701 1.75698C4.02201 -0.50702 7.64501 -0.58302 10.001 1.52898ZM16.827 3.16998C15.327 1.66798 12.907 1.60698 11.337 3.01698L10.002 4.21498L8.66601 3.01798C7.09101 1.60598 4.67601 1.66798 3.17201 3.17198C1.68201 4.66198 1.60701 7.04698 2.98001 8.62298L10 15.654L17.02 8.62398C18.394 7.04698 18.319 4.66498 16.827 3.16998Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <a href="#" class="slide-products__button">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="products__slide slide-products">
+                            <div class="slide-products__img">
+                                <img src="img/products/04.jpg" loading="lazy" alt="NFT" class="product__img">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            </div>
+                            <div class="slide-products__body">
+                                <h4 class="slide-products__title">Jenuine Ruddy Girl</h4>
+                                <div class="slide-products__text">
+                                    <p>Till Lindemann by NFT Frame Art</p>
+                                </div>
+                                <div class="slide-products__menu">
+                                    <div class="slide-products__text-price">Price</div>
+                                    <div class="slide-products__price">€25.00</div>
+                                    <div class="slide-products__like">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.001 1.52898C12.35 -0.58002 15.98 -0.51002 18.243 1.75698C20.505 4.02498 20.583 7.63698 18.479 9.99298L9.99901 18.485L1.52101 9.99298C-0.582994 7.63698 -0.503994 4.01898 1.75701 1.75698C4.02201 -0.50702 7.64501 -0.58302 10.001 1.52898ZM16.827 3.16998C15.327 1.66798 12.907 1.60698 11.337 3.01698L10.002 4.21498L8.66601 3.01798C7.09101 1.60598 4.67601 1.66798 3.17201 3.17198C1.68201 4.66198 1.60701 7.04698 2.98001 8.62298L10 15.654L17.02 8.62398C18.394 7.04698 18.319 4.66498 16.827 3.16998Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <a href="#" class="slide-products__button">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="products__slide slide-products">
+                            <div class="slide-products__img">
+                                <img src="img/products/02.jpg" loading="lazy" alt="NFT" class="product__img">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            </div>
+                            <div class="slide-products__body">
+                                <h4 class="slide-products__title">Jenuine Ruddy Girl</h4>
+                                <div class="slide-products__text">
+                                    <p>Till Lindemann by NFT Frame Art</p>
+                                </div>
+                                <div class="slide-products__menu">
+                                    <div class="slide-products__text-price">Price</div>
+                                    <div class="slide-products__price">€25.00</div>
+                                    <div class="slide-products__like">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.001 1.52898C12.35 -0.58002 15.98 -0.51002 18.243 1.75698C20.505 4.02498 20.583 7.63698 18.479 9.99298L9.99901 18.485L1.52101 9.99298C-0.582994 7.63698 -0.503994 4.01898 1.75701 1.75698C4.02201 -0.50702 7.64501 -0.58302 10.001 1.52898ZM16.827 3.16998C15.327 1.66798 12.907 1.60698 11.337 3.01698L10.002 4.21498L8.66601 3.01798C7.09101 1.60598 4.67601 1.66798 3.17201 3.17198C1.68201 4.66198 1.60701 7.04698 2.98001 8.62298L10 15.654L17.02 8.62398C18.394 7.04698 18.319 4.66498 16.827 3.16998Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <a href="#" class="slide-products__button">buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -46,7 +337,7 @@
     </div>
     
     <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@2.0.0/dist/model-viewer.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/countup.js@2.0.7/dist/countUp.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script type="module" src="js/app.min.js"></script>
 </body>
 </html>
